@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "npm run install-theme && hexo generate",
     "install-theme": "rm -rf themes/next && git clone https://github.com/theme-next/hexo-theme-next themes/next",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
